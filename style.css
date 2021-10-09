@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Vollkorn&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(0deg,#000C40,#F0F2F0);
+    
+}
+
+.InfoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.ListSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+article{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 5%;
+}
+
+.HeadersTop{
+    color: #525151;
+    padding-bottom: 12px;
+    font-size: 30px;
+
+}
+.MainTop{
+    color:#5e5b5b;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+headers{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    text-shadow: rgb(68, 19, 7) 1px 1px 0, rgb(68, 19, 7) 1px 1px 0, 
+    rgb(68, 19, 7) 1px 1px 0, rgb(68, 19, 7) 1px 1px 0, 
+    rgb(68, 19, 7) 1px 1px 0;
+}
+.HeadersCenter{
+    color: #9b7b5b;
+}
+.HeadersButtom{
+    color: #9b7b5b;
+}
+main{
+    font-size: 16px;
+}
+ol, li, a{
+    font-family: 'Vollkorn', serif;
+    text-shadow: #4d1b0a 0 0 5px; /* Свечение голубого цвета */
+    color: #e0cec8;
+    
+}
+hr{
+    width: 100%;
+    color: #000C40;
+    align-items: center;
+}
+.SectionRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+@keyframes gradient{
+    0% {
+        background-position: 0 80%;
+    }
+    50%{
+        background-position:  100% 80%;
+    }
+    100% {
+        background-position: 0 80%;
+    }
+}
+
+@keyframes textGradient{
+    0%{
+        color: black;
+    }
+    30%{
+        color: Gray;
+    }
+    60%{
+        color: white;
+    }
+
+    75%{
+        color: Gray;
+    }
+    
+    90%{
+        color: black;
+    }
+}
+
+
+

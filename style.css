@@ -9,11 +9,7 @@ body{
     background: linear-gradient(0deg,#240b36 60% ,#e67487 );
     
 }
-@media only screen and (max-width : 768px){
-    body{
-        background: #4a1c6b;
-    }
-}
+
 header{
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
@@ -29,6 +25,12 @@ header{
     width: 225px;
 }
 
+.headtitle{
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
 .head_menu nav ul li:hover ul{display: block;}
 
 .head_menu{
@@ -41,10 +43,10 @@ header{
     padding-top: 2%;
 }
 .head_menu header{
-    padding-left: 2%;
     font-size: 30px;
     color: #ffffff;
     text-shadow: #000000 0 0 4px;
+    
 }
 hr{
     padding-top: 0px;
@@ -131,5 +133,5 @@ section{
     padding: 1%;
 }
 .imageLogo{
-    margin-left: 2%;
+    margin-left: 4%;
 }

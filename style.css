@@ -9,6 +9,11 @@ body{
     background: linear-gradient(0deg,#240b36 60% ,#e67487 );
     
 }
+@media only screen and (max-width : 768px){
+    body{
+        background: #4a1c6b;
+    }
+}
 header{
     font-family: 'Roboto Slab', serif;
     font-size: 20px;

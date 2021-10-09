@@ -121,13 +121,16 @@ nav a{
 ul, li, ol, a{
     font-family: 'Vollkorn', serif;
     color: #BCC1D4;
+    text-decoration: none;
 }
 .our_group main ol li{
-    text-decoration: none;
+    text-decoration:none;
     list-style-type: none;
     padding-top: 6px;
 }
-
+.our_group main ol li a:hover {
+    color: rgb(121, 178, 228)
+}
 
 section{
     padding: 1%;

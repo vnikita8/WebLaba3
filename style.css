@@ -7,7 +7,6 @@ body{
     width: 100%;
     margin: 0;
     background: linear-gradient(0deg,#240b36 60% ,#e67487 );
-    
 }
 
 header{
@@ -15,6 +14,7 @@ header{
     font-size: 20px;
     color: #9b7b5b;
 }
+
 .head_menu nav ul li ul{
     position: absolute;
     top: 43px;
@@ -42,20 +42,22 @@ header{
     padding-bottom: 2px;
     padding-top: 2%;
 }
+
 .head_menu header{
     font-size: 30px;
     color: #ffffff;
     text-shadow: #000000 0 0 4px;
-    
 }
+
 hr{
     padding-top: 0px;
     margin: 1%;
-
 }
+
 .head_menu ul li:hover{
     background: rgb(184, 176, 176);
 }
+
 .head_menu nav ul{
     display: flex;
     flex-direction: row;
@@ -66,14 +68,15 @@ hr{
     position: relative;
     min-width: 585px;
     text-shadow: #e67487 0 0 4px; 
-    color: #ffffff;
-    
+    color: #ffffff;   
 }
+
 p{
     font-family: 'Open Sans', sans-serif;
-    color:#BCC1D4
-    
+    color:#BCC1D4;
+    text-indent: 30px;
 }
+
 nav li{
     padding: 10px 30px;
     list-style-position: inside;
@@ -85,13 +88,16 @@ nav li{
 nav a{
     color: aliceblue;
 }
+
 nav ul{
     margin: 0;
     padding: 0;
 }
+
 nav a{
     text-decoration: none;
 }
+
 .main_sect{
     margin: 3%;
     margin-top: 1%;
@@ -100,10 +106,12 @@ nav a{
     justify-content: space-between;
     align-items: baseline;
 }
+
 .info_sect header{
     text-align: center;
     padding: 10px;
 }
+
 .info_sect main{
     padding: 10px;
 }
@@ -115,26 +123,40 @@ nav a{
     align-items: center;
     width: 35%;
 }
+
 .info_sect main header{
     color: #bb9b7a;
 }
+
+.info_sect main ul li{
+    font-family: 'Open Sans', sans-serif;
+    color:#BCC1D4
+}
+
 ul, li, ol, a{
     font-family: 'Vollkorn', serif;
     color: #BCC1D4;
     text-decoration: none;
 }
+
 .our_group main ol li{
     text-decoration:none;
     list-style-type: none;
     padding-top: 6px;
 }
+
 .our_group main ol li a:hover {
-    color: rgb(121, 178, 228)
+    color: rgb(121, 178, 228);
 }
 
 section{
     padding: 1%;
 }
+
 .imageLogo{
     margin-left: 4%;
+}
+
+.headtitle:hover{
+    color: rgb(121, 178, 228);
 }
